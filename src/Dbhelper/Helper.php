@@ -18,7 +18,7 @@ namespace DbHelper;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
-class Api
+class Helper
 {
     /**
      * 数据库类型
@@ -51,5 +51,16 @@ class Api
     public function test(){
         print(" i am test");
     }
+
+    /**
+     * function:connect database
+     * time : 2018-04-03
+     * @param $param arr 连接参数
+     * @return dbo
+     */
+    public function conn($param){
+
+    }
+
 
 }
