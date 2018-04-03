@@ -1,2 +1,2 @@
 # DbHelper
-help easy connect database
+help easy handle database
