@@ -20,5 +20,8 @@
   },
   "autoload": {
     "psr-4": {"DbHelper\\": "src/DbHelper"}
+  },
+  "autoload": {
+    "psr-4": {"DbHelper\\": "src/DbHelper"}
   }
 }
