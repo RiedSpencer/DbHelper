@@ -1,5 +1,5 @@
 {
-  "name":"DbHelper/DbHelper",
+  "name":"dbhelper/dbhelper",
   "description":"easy connect database[mysql,sqlite,sql server,redis,mongo]",
   "keywords":["database","mysql","sqlite","sql server","redis","mongo"],
   "type":"library",
