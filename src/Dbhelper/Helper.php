@@ -44,20 +44,12 @@ class Api
         $this->dbtype = $dbtype;
     }
 
+
     /**
-     * 连接mysql
-     *
-     * $param array $param 连接数据库必备参数
-     * $return database object
+     * 测试 composer demo可行性
      */
-    public function  ConMysql($param){
-        $pdo = new \PDO($param['host'],$param['uname'],$param['pswd']);
-        if($pdo)
-            $this->log->warning('连接mysql['.$param['host'].']数据库成功');
-        return $pdo;
+    public function test(){
+        print(" i am test");
     }
-
-
-
 
 }

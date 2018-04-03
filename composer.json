@@ -1,17 +1,17 @@
 {
   "name":"dbhelper/dbhelper",
-  "description":"easy connect database[mysql,sqlite,sql server,redis,mongo]",
+  "description":"use databaseobject to easily handle database[pdo,redis,mongodb]",
   "keywords":["database","mysql","sqlite","sql server","redis","mongo"],
   "type":"library",
   "license":"MIT",
   "authors":[
     {
-      "name":"spencer Rao",
-      "email":"641315243raoye@sina.com"
+      "name": "spencer Rao",
+      "email": "641315243raoye@sina.com"
     }
   ],
   "require":{
-    "php": ">=5.3.0",
+    "php": ">=5.3" ,
     "monolog/monolog": "1.23.0"
   },
   "replace":{
